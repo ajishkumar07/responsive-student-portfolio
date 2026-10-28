@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ajish Kumar P's student portfolio">
+  <title>Ajish Kumar P | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="#home">AJISH<span>.</span></a>
+    <button class="menu-btn" id="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="hero container" id="home">
+    <div>
+      <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+      <h1>Hello, I'm <span>Ajish Kumar P</span></h1>
+      <h2>Computer Science Engineering Student</h2>
+      <p class="intro">I enjoy building useful software, creating responsive websites, and exploring Artificial Intelligence and Machine Learning.</p>
+      <div class="actions"><a class="button" href="#projects">Explore My Projects</a><a class="button ghost" href="#contact">Contact Me</a></div>
+    </div>
+    <aside class="profile-card"><div class="avatar">AK</div><h2>Ajish Kumar P</h2><p>CSE-C · Student</p><span class="status">● Always learning</span></aside>
+  </section>
+  <section class="section container" id="about">
+    <p class="eyebrow">A LITTLE ABOUT ME</p><h2 class="section-title">About Me</h2>
+    <div class="panel about"><p>I am a Computer Science Engineering student interested in programming, web development, IoT, and AI-powered applications. I like learning new technologies and applying them to practical projects.</p>
+      <div class="details"><p><strong>Name</strong>Ajish Kumar P</p><p><strong>Department</strong>CSE-C</p><p><strong>Registration No.</strong>711524BCS004</p><p><strong>Interests</strong>Web Development · AI/ML</p></div>
+    </div>
+  </section>
+  <section class="section alt" id="skills"><div class="container">
+    <p class="eyebrow">WHAT I'M LEARNING</p><h2 class="section-title">My Skills</h2>
+    <div class="grid skills">
+      <article class="panel skill"><span>🌐</span><h3>HTML</h3><p>Web structure</p></article>
+      <article class="panel skill"><span>🎨</span><h3>CSS</h3><p>Responsive design</p></article>
+      <article class="panel skill"><span>⚡</span><h3>JavaScript</h3><p>Interactive websites</p></article>
+      <article class="panel skill"><span>☕</span><h3>Java</h3><p>Programming</p></article>
+      <article class="panel skill"><span>🐍</span><h3>Python</h3><p>Programming and data</p></article>
+      <article class="panel skill"><span>🤖</span><h3>AI / ML</h3><p>Intelligent systems</p></article>
+    </div>
+  </div></section>
+  <section class="section container" id="projects">
+    <p class="eyebrow">SOME THINGS I'VE WORKED ON</p><h2 class="section-title">Featured Projects</h2>
+    <div class="grid projects">
+      <article class="panel project"><div class="project-icon">🏭</div><h3>Smart Machine Monitoring</h3><p>An IoT and AI concept for monitoring temperature, vibration, and RPM to help predict machine failures and plan maintenance.</p><div class="tags"><span>IoT</span><span>ESP32</span><span>DNN</span></div></article>
+      <article class="panel project"><div class="project-icon">🎓</div><h3>Student Management System</h3><p>An application concept for organizing student information, academic details, and records.</p><div class="tags"><span>Java</span><span>JDBC</span><span>Database</span></div></article>
+      <article class="panel project"><div class="project-icon">💻</div><h3>Student Portfolio Website</h3><p>A mobile-friendly website showcasing my profile, technical interests, and academic projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+    </div>
+  </section>
+  <section class="section alt" id="contact"><div class="container contact-wrap">
+    <p class="eyebrow">LET'S CONNECT</p><h2 class="section-title">Contact Me</h2><p class="intro center">Have a project idea or want to connect? Prepare a message using this form.</p>
+    <form class="panel form" id="contact-form"><label for="name">Your name</label><input id="name" required placeholder="Enter your name">
+      <label for="email">Your email</label><input id="email" type="email" required placeholder="you@example.com">
+      <label for="message">Message</label><textarea id="message" rows="5" required placeholder="Write your message..."></textarea>
+      <button class="button" type="submit">Prepare Email</button><p id="form-status" role="status"></p><small>This demo opens your email app after you add your email address in script.js.</small>
+    </form>
+  </div></section>
+</main>
+<footer class="footer"><p>© <span id="year"></span> Ajish Kumar P · Student Portfolio</p><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
